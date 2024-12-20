@@ -1,0 +1,21 @@
+{
+    "name": "thoma/my-password",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Thoma\\MyPassword\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thomas Stöckl",
+            "email": "thomas.stoeckl98@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "hackzilla/password-generator": "dev-master",
+        "cocur/slugify": "~v4.4.0"
+    }
+}
